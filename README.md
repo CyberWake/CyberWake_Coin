@@ -15,4 +15,4 @@ To get the app build following are the requirements:
 
 | [**CyberWake Coin App**]() |
 |------------|
-| <center><img src="" width="300"></center> |
+| <center><img src="https://github.com/CyberWake/CyberWake_Coin/blob/master/CyberWake%20Coin%20App.gif" width="300"></center> |
