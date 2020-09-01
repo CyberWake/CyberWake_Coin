@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<DeployedContract> loadContract()async{
     String abi = await rootBundle.loadString('assets/abi.json');
-    String contractAddress = '0xaE60120b646AE0360d77C2aBD025457653C60aA7';
+    String contractAddress = '0x103012FD95f8A95b7ad983B81eb7D7A9D52987A0';
     final contract = DeployedContract(ContractAbi.fromJson(abi, 'CyberWakeCoin'),EthereumAddress.fromHex(contractAddress));
     return contract;
   }
